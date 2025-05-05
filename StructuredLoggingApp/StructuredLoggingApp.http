@@ -1,0 +1,28 @@
+@base_address = http://localhost:5212
+
+GET {{base_address}}
+Accept: application/json
+
+###
+
+GET {{base_address}}/api/books
+Accept: application/json
+
+###
+GET {{base_address}}/api/books/10
+Accept: application/json
+
+###
+
+POST {{base_address}}/api/books
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "publishedYear": 1925,
+  "genre": "Unknwown"
+}
+###
+

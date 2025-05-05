@@ -1,0 +1,15 @@
+{
+  "@t": "2025-05-01T14:43:54.5480477Z",
+  "@m": "An unhandled exception has occurred.",
+  "@i": "b3d66b0c",
+  "@l": "Error",
+  "@x": "System.ArgumentException: Genre cannot be 'Unknown'\r\n   at MinimalAPIApp.Endpoints.BookEndpoints.CreateBook(Book book, ILogger logger) in D:\\Course\\DOTNET\\WebAPI\\projects\\MinimalAPIApp\\Endpoints\\BookEndpoints.cs:line 58\r\n   at MinimalAPIApp.Endpoints.BookEndpoints.<>c__DisplayClass1_0.<MapBookEndpoints>b__2(Book book) in D:\\Course\\DOTNET\\WebAPI\\projects\\MinimalAPIApp\\Endpoints\\BookEndpoints.cs:line 26\r\n   at lambda_method4(Closure, Object, HttpContext, Object)\r\n   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)\r\n   at MinimalAPIApp.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in D:\\Course\\DOTNET\\WebAPI\\projects\\MinimalAPIApp\\Middlewares\\ExceptionHandlingMiddleware.cs:line 25",
+  "@tr": "036444888ed120a88b19168dbde784ac",
+  "@sp": "47633739804b20ec",
+  "SourceContext": "MinimalAPIApp.Middlewares.ExceptionHandlingMiddleware",
+  "RequestId": "0HNC8NQ4KHPJC:00000001",
+  "RequestPath": "/api/books",
+  "ConnectionId": "0HNC8NQ4KHPJC",
+  "Application": "Structured Logging App With Serilog",
+  "Environment": "Development"
+}
